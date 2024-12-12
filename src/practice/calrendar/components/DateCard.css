@@ -3,6 +3,11 @@
   width: 200px;
   height: 160px;
   border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.date-card:hover {
+  transform: scale(1.15);
 }
 
 .date-card div {
@@ -10,6 +15,7 @@
   padding: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  cursor: default;
 }
 
 .date-card ul {
