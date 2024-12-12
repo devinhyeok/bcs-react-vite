@@ -39,6 +39,24 @@ h1 {
   gap: 16px;
 }
 
+.day-list {
+  margin-top: 40px;
+  background-color: #f8b229;
+  display: flex;
+  padding: 32px 72px 32px 62px;
+  justify-content: space-between;
+}
+
+.day-list li {
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+}
+
 ul {
   list-style: none;
   margin: 0;

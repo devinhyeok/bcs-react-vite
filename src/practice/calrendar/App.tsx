@@ -7,6 +7,15 @@ function App() {
   return (
     <div className="app-container">
       <h1>December, 2024</h1>
+      <ul className="day-list">
+        <li>MON</li>
+        <li>TUE</li>
+        <li>WED</li>
+        <li>THU</li>
+        <li>FRI</li>
+        <li>SAT</li>
+        <li>SUN</li>
+      </ul>
       <ul className="date-list">
         {date.map((v, i) => (
           <DateCard
