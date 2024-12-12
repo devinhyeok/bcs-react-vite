@@ -1,5 +1,3 @@
-import "../App.css";
-
 function App() {
   const programmingLanguages = ["JavaScript", "Python", "Rudy", "C++", "C#"];
 
