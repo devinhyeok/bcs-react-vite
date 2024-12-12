@@ -9,7 +9,12 @@ function App() {
       <h1>December, 2024</h1>
       <ul className="date-list">
         {date.map((v, i) => (
-          <DateCard key={i} date={v.date} todos={v.todos} />
+          <DateCard
+            key={i}
+            date={v.date}
+            todos={v.todos}
+            isHoliday={v.isHoliday}
+          />
         ))}
       </ul>
     </div>
